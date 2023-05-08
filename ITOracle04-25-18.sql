@@ -1,0 +1,16 @@
+DROP TABLE sampleTable;
+
+CREATE TABLE sampleTable(
+table_id  NUMBER  NOT NULL
+);
+
+CONNECT IT378S874/basket78;
+CREATE ROLE example1;
+GRANT SELECT ON sampleTable TO example1;
+CREATE USER  IT378S883 IDENTIFIED BY contract74
+  DEFAULT TABLESPACE users;
+GRANT example1 TO IT378S883;
+
+SELECT * FROM IT378S883.addresses;
+
+DROP TABLE  IT378S883.addresses;

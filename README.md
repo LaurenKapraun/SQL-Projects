@@ -1,1 +1,2 @@
-# SQL-Projects
+# IT 378 - Database Processing
+Database concepts, emphasis on relational databases, SQL, data modeling, database design, DBMS functions, database application programming, current trends, design project.
